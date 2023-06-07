@@ -1,3 +1,5 @@
+app: vscode
+-
 # This opens the file tree in the sidebar
 bar tree: user.vscode("workbench.view.extension.filetree")
 
