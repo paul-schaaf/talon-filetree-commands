@@ -35,3 +35,6 @@ tree git:
     user.run_rpc_command("talon-filetree.toggleGitIgnoredFiles")
 tree current:
     user.run_rpc_command("talon-filetree.revealCurrentFile")
+tree hunt <user.letters> [for <user.text>]:
+    user.run_rpc_command_and_wait("talon-filetree.findInFolder", letters)
+    insert(text or "")
